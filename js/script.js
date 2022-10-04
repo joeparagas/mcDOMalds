@@ -54,6 +54,20 @@ divShoes.innerHTML = 'Shoe: Li-Ning';
 //4.1 background color to 'red'
 //4.2 border style to 'solid'
 //4.3 border color to 'gold'
+let list = document.getElementsByClassName('playerCard');
+
+/* list.getElementsByClassName('playerCard')[0].style.background = 'red';
+list.getElementsByClassName('playerCard')[0].style.borderStyle = 'solid';
+list.getElementsByClassName('playerCard')[0].style.borderColor = 'gold';
+
+list.getElementsByClassName('playerCard')[1].style.background = 'red'; */
+ 
+for (let i = 0; i < list.length; i++) {
+      list[i].style.background = 'red';
+      list[i].style.borderStyle = 'solid';
+      list[i].style.borderColor = 'gold';
+}
+
 
 
 
