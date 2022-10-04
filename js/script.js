@@ -117,9 +117,9 @@ player[6].prepend(firstName);
 */ 
 
 let fryGuys = document.createElement('div');
-fryGuys,id = 'nickName';
+fryGuys.id = 'nickName8';
 fryGuys.innerHTML = 'aka: Pom-poms';
-player[7].prepend(fryGuys);
+player[7].appendChild(fryGuys);
 
 
 /*6.2 Create a div element with:
@@ -128,7 +128,10 @@ player[7].prepend(fryGuys);
       add this newly created div element to Fry Guys player card
 */
 
-
+let favFood8 = document.createElement('div');
+favFood8.id = 'favFood8';
+favFood8.innerHTML = 'Favorite Food: French Fries';
+player[7].appendChild(favFood8);
 
 /*6.3 Create a div element with:
       id of 'shoe8'
@@ -136,6 +139,10 @@ player[7].prepend(fryGuys);
       add this newly created div element to Fry Guys player card
 */
 
+let favsShoe8 = document.createElement('div');
+favsShoe8.id = 'shoe8';
+favsShoe8.innerHTML = 'Shoe: Puma';
+player[7].appendChild(favsShoe8);
 
 
 //7. Birdie the Early Bird
@@ -146,7 +153,10 @@ player[7].prepend(fryGuys);
       add this newly created div element to Birdie's player card
 */
 
-
+let birdie = document.createElement('div');
+birdie.id = 'position9';
+birdie.innerHTML = 'Head Scout';
+player[8].prepend(birdie);
 
 /*7.2 Create a h1 element with:
     id of 'last9'
@@ -154,6 +164,10 @@ player[7].prepend(fryGuys);
     add this newly created h1 element to Birdie's player card
 */
 
+let lastName9 = document.createElement('h1');
+lastName9.id = 'last9';
+lastName9.innerHTML = 'Early Bird';
+player[8].prepend(lastName9);
 
 /*7.3 Create a h2 element with:
     id of 'first9'
@@ -161,7 +175,10 @@ player[7].prepend(fryGuys);
     add this newly created h2 element to Birdie's player card
 */
 
-
+let firstName9 = document.createElement('h2');
+firstName9.id = 'first9';
+firstName9.innerHTML = 'Birdie the';
+player[8].prepend(firstName9);
 
 /*7.4 Create a div element with:
       id of 'nickName9'
@@ -169,7 +186,10 @@ player[7].prepend(fryGuys);
       add this newly created div element to Birdie's player card
 */
 
-
+let nickName9 = document.createElement('div');
+nickName9.id = 'nickName9';
+nickName9.innerHTML = 'aka: ODB';
+player[8].appendChild(nickName9);
 
 
 /*7.5 Create a div element with:
@@ -178,7 +198,10 @@ player[7].prepend(fryGuys);
       add this newly created div element to Birdie's player card
 */
 
-
+let favFood9 = document.createElement('div');
+favFood9.id = 'favFood9';
+favFood9.innerHTML = 'Favorite Food: The other white meat';
+player[8].appendChild(favFood9);
 
 
 /*7.6 Create a div element with:
@@ -187,3 +210,7 @@ player[7].prepend(fryGuys);
       add this newly created div element to Birdie's player card
 */
 
+let shoe = document.createElement('div');
+shoe.id = 'shoe9';
+shoe.innerHTML = 'Show: allbirds';
+player[8].appendChild(shoe);
