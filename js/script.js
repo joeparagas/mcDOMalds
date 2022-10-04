@@ -8,10 +8,12 @@ divElem.innerHTML = 'Ronald';
 
 
 //Find the div id of 'favFood1' and replace 'Favorite Food: Whoppers' with 'Favorite Food: Big Macs'
-
+let divFood = document.getElementById('favFood1');
+divFood.innerHTML = 'Favorite Food: Whoppers';
 
 //Find the div id of 'shoe1' and replace 'Shoe: n/a' with 'Shoe: Clown'
-
+let divShoe = document.getElementById('shoe1');
+divShoe.innerHTML = 'Shoe: Clown';
 
 
 //2. Evil Grimmace
