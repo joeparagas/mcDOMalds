@@ -18,31 +18,35 @@ divShoe.innerHTML = 'Shoe: Clown';
 
 //2. Evil Grimmace
 //Find the div with the id of "last2" and replace 'Grimmmmmmace' with the 'Grimmace': 
-
+let divEvil = document.getElementById('last2');
+divEvil.innerHTML = 'Grimmace';
 
 
 //Find the div with the id of 'position2' and replace 'Point Guard' with 'Power Foward'
-
+let divPos = document.getElementById('position2');
+divPos.innerHTML = 'Power Forward';
 
 
 //Find the div id of 'nickName2' and replace 'aka:The Purple Monster' with 'The Poor Man's Barney'
-
-
+let divName = document.getElementById('nickName2');
+divName.innerHTML = "The Poor Man's Barney";
 
 
 //3. Mayor McCheese
 
 //Find the div with the id of 'nickName3' and replace 'aka: Mister President' with 'aka: Da Mayah'
-
+let divMayor = document.getElementById('nickName3');
+divMayor.innerHTML = 'aka: Da Mayah';
 
 
 //Find the div with the id of 'favFood3' and replace 'Favorite Food: Kale Salad' with 'Favorite Food: Cheeseburgers';
-
+let divFavs = document.getElementById('favFood3');
+divFavs.innerHTML = 'Favorite Food: Cheeseburgers';
 
 
 //Find the div with the id of 'shoe3' and replace 'Shoe: Jordan Brand' with 'Shoe: Li-Ning'
-
-
+let divShoes = document.getElementById('shoe3');
+divShoes.innerHTML = 'Shoe: Li-Ning';
 
 
 //4. Player cards 
