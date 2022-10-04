@@ -69,8 +69,6 @@ for (let i = 0; i < list.length; i++) {
 }
 
 
-
-
 //5. Uncle O'Grimacey
 //Create the following for each element:
 
@@ -80,6 +78,12 @@ for (let i = 0; i < list.length; i++) {
       add this newly created div element to Uncle's player card
 */
 
+let player = document.getElementsByClassName('playerCard');
+
+let unc = document.createElement('div');
+unc.id = 'position7';
+unc.innerHTML = 'Coach';
+player[6].prepend(unc);
 
 
 /*5.2 Create a h1 element with:
@@ -88,7 +92,10 @@ for (let i = 0; i < list.length; i++) {
     add this newly created h1 element to Uncle's player card
 */
 
-
+let lastName = document.createElement('h1');
+lastName.id = 'last7';
+lastName.innerHTML = "O'Grimmacey";
+player[6].prepend(lastName);
 
 /*5.3 Create a h2 element with:
     id of 'first7'
@@ -96,7 +103,10 @@ for (let i = 0; i < list.length; i++) {
     add this newly created h2 element to Uncle's player card
 */
 
-
+let firstName = document.createElement('h2');
+firstName.id = 'first7';
+firstName.innerHTML = 'Uncle';
+player[6].prepend(firstName);
 
 //6. Fry Guys
 
@@ -104,9 +114,12 @@ for (let i = 0; i < list.length; i++) {
       id of 'nickName8'
       innerHTML of 'aka: Pom-poms'
       add this newly created div element to Fry Guys player card
-*/
+*/ 
 
-
+let fryGuys = document.createElement('div');
+fryGuys,id = 'nickName';
+fryGuys.innerHTML = 'aka: Pom-poms';
+player[7].prepend(fryGuys);
 
 
 /*6.2 Create a div element with:
